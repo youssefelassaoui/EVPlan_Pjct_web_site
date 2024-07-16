@@ -19,7 +19,6 @@
 
 // Define your custom theme
 import React from "react";
-import { Link } from "react-router-dom";
 import { Container, Row, Col, Button, Card, CardBody, FormGroup, Input, InputGroup, InputGroupAddon, InputGroupText } from "reactstrap";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
