@@ -39,9 +39,12 @@ class AboutUs extends React.Component {
                 <div className="px-4 px-md-0">
                   <h3 className="display-9 text-white with-underline1">About us</h3>
                   <p className="leadcnt text-white">
-                  Green Energy Park is a platform for experimentation, research and training in renewable energies based in the green city of Benguerir and built in collaboration between the Institute for Research in Solar Energy and New Energies (IRESEN) and the Mohamed VI Polytechnic University (UM6P).
-
-This unique platform, the first in Africa, allows on the one hand to create synergies and coalitions between several Moroccan research institutions in order to achieve excellence, and on the other hand to acquire knowledge and know-how through partnerships with other Moroccan universities and industries.                 </p>
+                  Welcome to EVPLAN, your comprehensive solution for electric vehicle infrastructure planning and management
+                   in Moroccan and African cities. Our mission is to support the transition to a sustainable future by providing 
+                   city planners, EV sector companies, and EV users with powerful tools for identifying optimal charging locations,
+                    managing infrastructure, and integrating EV stations into the energy grid. We deliver accurate and reliable data 
+                   through an intuitive interface, leveraging advanced analysis to support informed decision-making.
+                   Join us in driving the future of electric mobility, one charge at a time.                   </p>
                 </div>
               </Col>
               <Col className="mb-lg-auto" lg="5">

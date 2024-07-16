@@ -71,102 +71,100 @@ class DemoNavbar extends React.Component {
             className="navbar-main navbar-transparent navbar-light headroom"
             expand="lg"
             id="navbar-main"
-            
-            
           >
-            
-              <NavbarBrand className="mr-lg-5" to="/" tag={Link} >
-                <img
-                  alt="..."
-                  src={require("assets/img/theme/logoevplaner.png")}
-                  height="90px"
-                />
-              </NavbarBrand>
-              <button className="navbar-toggler" id="navbar_global">
-                <span className="navbar-toggler-icon" />
-              </button>
-              <UncontrolledCollapse
-                toggler="#navbar_global"
-                navbar
-                className={this.state.collapseClasses}
-                onExiting={this.onExiting}
-                onExited={this.onExited}
-              >
-                <div className="navbar-collapse-header">
-                  <Row>
-                    <Col className="collapse-brand" xs="6" >
-                      <Link to="/">
-                        <img
-                          alt="..."
-                          src={require("assets/img/theme/Logo.png")}
-                          
-                        />
-                      </Link>
-                    </Col>
-                    <Col className="collapse-close" xs="6">
-                      <button className="navbar-toggler" id="navbar_global">
-                        <span />
-                        <span />
-                      </button>
-                    </Col>
-                  </Row>
-                </div>
-                <Nav className="navbar-nav-hover align-items-lg-center ml-auto mr-10cm" navbar>
+            <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
+              <img
+                alt="..."
+                src={require("assets/img/theme/logoevplaner.png")}
+                height="90px"
+                style={{ width: "auto", height: "135px", marginLeft : "6.2 cm"  }} // Adjust width and height as needed
+              />
+            </NavbarBrand>
 
-                  <UncontrolledDropdown nav>
+            <button className="navbar-toggler" id="navbar_global">
+              <span className="navbar-toggler-icon" />
+            </button>
+            <UncontrolledCollapse
+              toggler="#navbar_global"
+              navbar
+              className={this.state.collapseClasses}
+              onExiting={this.onExiting}
+              onExited={this.onExited}
+            >
+              <div className="navbar-collapse-header">
+                <Row>
+                  <Col className="collapse-brand" xs="6">
+                    <Link to="/">
+                      <img
+                        alt="..."
+                        src={require("assets/img/theme/Logo.png")}
+                      />
+                    </Link>
+                  </Col>
+                  <Col className="collapse-close" xs="6">
+                    <button className="navbar-toggler" id="navbar_global">
+                      <span />
+                      <span />
+                    </button>
+                  </Col>
+                </Row>
+              </div>
+              <Nav
+                className="navbar-nav-hover align-items-lg-center ml-auto mr-10cm"
+                navbar
+              >
+                <UncontrolledDropdown nav>
                   <Link to="/">
                     <DropdownToggle nav>
-                      <span className="nav-link-inner--text" to="/">Home</span>
+                      <span className="nav-link-inner--text" to="/">
+                        Home
+                      </span>
                     </DropdownToggle>
                   </Link>
-                    </UncontrolledDropdown>
-                  <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
-                      <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Services</span>
-                    </DropdownToggle>
-                    <DropdownMenu>
-                      <DropdownItem to="" tag={Link}>
-                        EV-hub
-                      </DropdownItem>
-                      <DropdownItem to="" tag={Link}>
-                        EV-user
-                      </DropdownItem>
-                      <DropdownItem to="" tag={Link}>
-                        EV-planer
-                      </DropdownItem>
-                    </DropdownMenu>
-                  </UncontrolledDropdown>
-                  <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
-                      <span className="nav-link-inner--text" >About us</span>
-                    </DropdownToggle>
-                    </UncontrolledDropdown>
-                    <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
-                      <span className="nav-link-inner--text" >Contact us</span>
-                    </DropdownToggle>
-                    </UncontrolledDropdown>
-                </Nav>
-                <Nav className="align-items-lg-center ml-lg-auto" navbar>
-                  <NavItem className="d-none d-lg-block ml-lg-4">
-                    <Button
-                      className="btn-neutral btn-icon"
-                      color="default"
-                      to="/login-page" 
-                      tag={Link}
-                      target="_blank"
-                      style={{ marginLeft: "-7cm" }}
-                    >
-                      
-                      <span className="nav-link-inner--text ml-1 " >
-                        Login
-                      </span>
-                    </Button>
-                  </NavItem>
-                </Nav>
-              </UncontrolledCollapse>
-            
+                </UncontrolledDropdown>
+                <UncontrolledDropdown nav>
+                  <DropdownToggle nav>
+                    <i className="ni ni-collection d-lg-none mr-1" />
+                    <span className="nav-link-inner--text">Services</span>
+                  </DropdownToggle>
+                  <DropdownMenu>
+                    <DropdownItem to="" tag={Link}>
+                      EV-hub
+                    </DropdownItem>
+                    <DropdownItem to="" tag={Link}>
+                      EV-user
+                    </DropdownItem>
+                    <DropdownItem to="" tag={Link}>
+                      EV-planer
+                    </DropdownItem>
+                  </DropdownMenu>
+                </UncontrolledDropdown>
+                <UncontrolledDropdown nav>
+                  <DropdownToggle nav>
+                    <span className="nav-link-inner--text">About us</span>
+                  </DropdownToggle>
+                </UncontrolledDropdown>
+                <UncontrolledDropdown nav>
+                  <DropdownToggle nav>
+                    <span className="nav-link-inner--text">Contact us</span>
+                  </DropdownToggle>
+                </UncontrolledDropdown>
+              </Nav>
+              <Nav className="align-items-lg-center ml-lg-auto" navbar>
+                <NavItem className="d-none d-lg-block ml-lg-4">
+                  <Button
+                    className="btn-neutral btn-icon"
+                    color="default"
+                    to="/login-page"
+                    tag={Link}
+                    target="_blank"
+                    style={{ marginLeft: "-7cm" }}
+                  >
+                    <span className="nav-link-inner--text ml-1 ">Login</span>
+                  </Button>
+                </NavItem>
+              </Nav>
+            </UncontrolledCollapse>
           </Navbar>
         </header>
       </>
