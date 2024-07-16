@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/creativetimofficial/argon-design-system-react.git"
   },
+  "resolutions": {
+    "ajv": "6.12.6"
+  },
   "keywords": [
     "react",
     "reactjs",
@@ -51,6 +54,9 @@
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.14",
     "@mui/material": "^5.15.14",
+    "@popperjs/core": "^2.11.8",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
     "bootstrap": "4.6.2",
     "classnames": "2.3.2",
     "headroom.js": "0.12.0",

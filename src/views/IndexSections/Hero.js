@@ -9,24 +9,9 @@ import logo4 from "../../assets/img/theme/zunderlogo.png"; // Replace with actua
 import Login from "../IndexSections/Login.js";
 
 // reactstrap components
-import {
-  Badge,
-  Button,
-  Card,
-  CardBody,
-  CardImg,
-  FormGroup,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
-  Container,
-  Row,
-  Col,
-} from "reactstrap";
+import { Button, Card, Container, Row, Col } from "reactstrap";
 
 // core components
-import Tabs from "../IndexSections/Tabs.js";
 import Cards from "./Cards.js";
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 

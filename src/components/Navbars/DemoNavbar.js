@@ -28,16 +28,12 @@ import {
   DropdownItem,
   DropdownToggle,
   UncontrolledDropdown,
-  Media,
   NavbarBrand,
   Navbar,
   NavItem,
-  NavLink,
   Nav,
-  Container,
   Row,
   Col,
-  UncontrolledTooltip,
 } from "reactstrap";
 
 class DemoNavbar extends React.Component {
